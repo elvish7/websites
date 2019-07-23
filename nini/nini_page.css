@@ -7,6 +7,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px&display=swap');
 
+#main{
+    background: #D0A26E;
+}
+
 .navbar-brand{
 	font-size: 25px;
 	color: black;
@@ -64,9 +68,6 @@
 	background-size: cover;
 }
 
-#words{
-	margin-top: 5vh;
-}
 
 #words h3{
 	font-size: 25px;
