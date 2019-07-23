@@ -30,11 +30,11 @@
 
 #paraimg1{
 	height:50vh;
-	width: 30vw;
+	/*width: 30vw;*/
 	/*position: absolute;*/
 	margin-top: -80vh;
 	margin-left: -2vw;
-	float: left;
+	/*float: left;*/
 	background-image: url('image/test.jpg');
 	background-attachment: fixed;
 	background-position: center;
@@ -46,11 +46,11 @@
 
 #paraimg2{
 	height:50vh;
-	width: 30vw;
+	/*width: 30vw;*/
 	/*position: absolute;*/
 	margin-top: -80vh;
 	/*margin-left: 9vw;*/
-	float: right;
+	/*float: right;*/
 	background-image: url('image/test2.jpg');
 	background-attachment: fixed;
 	background-position: center;
@@ -58,9 +58,9 @@
 	background-size: cover;
 }
 
-#words{
+/*#words{
 	margin-top: 130vh;
-}
+}*/
 
 #words h3{
 	font-size: 25px;
