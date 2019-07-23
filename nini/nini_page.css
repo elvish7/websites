@@ -64,9 +64,9 @@
 	background-size: cover;
 }
 
-/*#words{
-	margin-top: 130vh;
-}*/
+#words{
+	margin-top: 5vh;
+}
 
 #words h3{
 	font-size: 25px;
@@ -75,4 +75,10 @@
 
 #image1{
 	max-width: 50%;
+	margin-bottom: 8vh;
+}
+
+.page-header{
+	margin-bottom: 5vh;
+	font-family: 'PT Sans';
 }
