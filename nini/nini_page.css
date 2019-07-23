@@ -25,7 +25,13 @@
 	width: 100%;
 	/*margin-top: 0px;*/
 	/*position: absolute;*/
+	position: relative;
 	z-index: -1;
+}
+
+#selfis{
+	position: absolute;
+	top: 20vh;
 }
 
 #paraimg1{
