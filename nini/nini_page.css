@@ -7,6 +7,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px&display=swap');
 
+html{
+		  scroll-behavior: smooth;
+		}
+
 #main{
     background: #C2AC96;
     padding: 80px;
@@ -94,4 +98,8 @@
 
 #chart{
 	height: 300px;
+}
+
+.page-footer{
+	background-color: #E4DBD2;
 }

@@ -3,6 +3,7 @@
 <head>
 	<!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="author" content="Elvish">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
      <!-- Bootstrap CSS -->
@@ -33,29 +34,30 @@
 		        	<a class="nav-link" href="#">Home</a>
 		      	</li>
 		      	<li class="nav-item">
-		        	<a class="nav-link" href="#">About</a>
+		        	<a class="nav-link" href="#About">About</a>
 		      	</li>
 		      	<li class="nav-item">
-		        	<a class="nav-link" href="#">Skills</a>
+		        	<a class="nav-link" href="#Skills">Skills</a>
 		      	</li>
 		      	<li class="nav-item">
-		        	<a class="nav-link" href="#">Interest</a>
+		        	<a class="nav-link" href="#Interest">Interest</a>
 		      	</li>
 		     </ul>
 			<!-- Links -->
 			<ul class="nav navbar-nav ml-auto">
 			    <li class="nav-item">
-			      <a class="nav-link" href="#">IG</a>
+			      <a class="nav-link" href="https://www.instagram.com/ninitsao_/">IG</a>
 			    </li>
 			    <li class="nav-item">
 			      <a class="nav-link" href="#">Mail</a>
 			    </li>
 			    <li class="nav-item">
-			      <a class="nav-link" href="#">Whats app</a>
+			      <a class="nav-link" href=" https://www.whatsapp.com/download/">Whats app</a>
 			    </li>
 			    <li class="nav-item">
-			      <a class="nav-link" href="#">Line</a>
+			      <a class="nav-link" href="image/lineqr.jpg" target="_blank">Line</a>
 			    </li>
+
 			</ul>
 		</div>
 
@@ -94,9 +96,11 @@
 	<img src="image/img1.jpg" class="img-fluid mx-auto d-block" id="image1">
 
 	<!-- page3 -->
-	<br>
-		<hr class="line" size="20px" align="center" width="90%" color="#4D4A4A" >
-	</br>
+	<section id="About">
+		<br>
+			<hr class="line" size="20px" align="center" width="90%" color="#4D4A4A" >
+		</br>
+	</section>
 
 	<div class="page-header text-center">
     	<h3>About Me</h3>
@@ -167,22 +171,36 @@
 		</div>
 	</div>
 
-	<br>
-		<hr class="line" size="20px" align="center" width="90%" color="#4D4A4A" >
-	</br>
+	<section id="Skills">
+		<br>
+			<hr class="line" size="20px" align="center" width="90%" color="#4D4A4A" >
+		</br>
+	</section>
+
 	<div class="page-header text-center">
     	<h3>Skills</h3>
 	</div>
 	<div id="chart">
 		<canvas id="myChart"></canvas>
 	</div>
-	<br>
-		<hr class="line" size="20px" align="center" width="90%" color="#4D4A4A" >
-	</br>
+
+	<section id="Interest">
+		<br>
+			<hr class="line" size="20px" align="center" width="90%" color="#4D4A4A" >
+		</br>
+	</section>
+
 	<div class="page-header text-center">
     	<h3>Interest</h3>
 	</div>
+
 </div>
+	<!-- Footer -->
+	<footer class="page-footer font-small">
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-3">© 2019 Copyright: twothousand.com</div>
+	</footer>
+
 	
 	<!-- bar chart-->
 	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
@@ -198,7 +216,7 @@
 		    data: {
 		        labels: ['English', 'French', 'AI/PS', 'Website Manage', 'Design'],
 		        datasets: [{
-	            backgroundColor: ['#966950','#966950','#C07E53','#997C58','#807770'],
+	            backgroundColor: ['#966950','#966950','#C07E53','#997C58','#CC8C18'],
 	            data: [90, 60, 50, 70, 80,0,100]
 	        	}]
 		    },
