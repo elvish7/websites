@@ -100,6 +100,14 @@ html{
 	height: 300px;
 }
 
+.carousel-inner img{
+	width: 30vw;
+}
+
+#carouselExampleIndicators{
+	margin-bottom: 15px;
+}
+
 .page-footer{
 	background-color: #E4DBD2;
 }
