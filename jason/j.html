@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>個人工作室</title>
+ 	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <style type="text/css">
+    	@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+    	/*.bg{
+    		width: 100%;
+    		height:120vh;
+    		opacity: 0.4;
+    	}*/
+    	.bg {
+		  /* The image used */
+		  background-image: url("./img/bg.jpg");
+		  height: 120vh;
+		  opacity: 0.4;
+
+		  /* Center and scale the image nicely */
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+
+    	.self-img{
+			position: relative;
+  			margin-top: -800px;
+  			width: 180px;
+  			height: 180px;
+  			border: white 4px solid;
+    		box-shadow: 0 0 0 3px gray;
+    		border-radius: 50%;
+		}
+
+		h4 {
+			position: relative;
+  			margin-top: -300px;
+		}
+
+		.text-center {
+			font-family: 'Josefin Sans', sans-serif;
+		}
+
+		footer {
+			margin-top: 160px;
+			height: 25vh;
+		}
+
+    
+
+    </style>
+</head>
+<body>
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+	<!--<img src="./img/bg.jpg" class="bg"></img>-->
+	<div class="bg"></div>
+
+	<!-- personal image -->
+  	<center>
+  		<img class="self-img" src="./img/i1.jpg"> <!--onclick="this.src='./img/i2.jpg'"/-->
+	</center>
+	<h4 class="text-center">MY NAME IS</h4>
+	<h1 class="text-center">JASON</h1>
+	<p class="text-center">Life is nothing but a drama</p>
+
+	<!-- footer -->
+	<footer id="sticky-footer" class="py-4 bg-secondary text-white-50">
+
+		<!-- Footer Elements -->
+	  	<div class="container">
+	  		<center>
+	  			<section id="Contact">
+					<h5 class="font-weight-bold text-uppercase mb-4">Contact me</h5>
+				</section>
+			</center>
+
+		    <!-- Social buttons -->
+		    <center>
+		    	<a href="https://www.instagram.com/jasonlife311/" target="_blank">
+			    	<img src="./img/instagram.png" id="footer-icon" class="img-responsive" width="30px">
+			    </a>
+			   	<a  data-toggle="popover" title="LINE ID" data-placement="top"
+            data-content="0975970082">
+			    <img src="./img/line1.png" id="footer-icon" class="img-responsive" width="30px" >
+				</a>
+				
+			    <a href="https://www.facebook.com/profile.php?id=100004012759229" target="_blank">
+			    	<img src="./img/facebook.png" id="footer-icon" class="img-responsive" width="30px">
+			    </a>
+			    <a  data-toggle="popover" title="google mail" data-placement="top"
+            data-content="wjuesheng0311@gmail.com">
+			    	<img src="./img/email.png" id="footer-icon" class="img-responsive" width="30px">
+				</a>
+			</center>		
+	    	<!-- Social buttons -->
+	    	<script type="text/javascript">
+				// popovers Initialization
+				$(function (){
+				    $("[data-toggle='popover']").popover();
+				});
+			</script>
+
+	  	</div>
+	  	<!-- Footer Elements -->
+
+	    <div class="container text-center">
+	      	<small>Copyright &copy; My Website</small>
+	    </div>
+	</footer>
+
+
+	
+</body>
+</html>
